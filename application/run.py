@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 
-from application import app
+from application.templates import app
 
 if __name__ == '__main__':
     app.run(debug=True)
