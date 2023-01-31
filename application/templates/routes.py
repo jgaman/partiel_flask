@@ -8,4 +8,4 @@ import plotly.express as px
 
 @app.route('/')
 def index():
-    return render_template('layout.html')
+    return render_template('layout.html', title = 'Home')
