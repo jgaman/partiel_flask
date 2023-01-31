@@ -2,5 +2,10 @@
 #create a flask app 
 import pandas as pd
 import numpy as np
-import pickle
-import flask
+
+
+from application import app
+
+if __name__ == '__main__':
+    app.run(debug=True)
+    
